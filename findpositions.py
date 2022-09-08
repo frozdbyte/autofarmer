@@ -32,6 +32,7 @@ def save():
 if("--skip" in sys.argv):
     save()
     print("Done! Config created with 0 values!")
+    input("Press enter to exit.")
     quit()
 
 print("Move your mouse to the items position and press -.")
@@ -52,4 +53,5 @@ while True:
 save()
     
 print("Done! Config saved!")
+input("Press enter to exit.")
 quit()

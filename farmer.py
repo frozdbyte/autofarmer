@@ -30,6 +30,7 @@ try:
         config = json.loads(f.read())
 except:
     print("No config found! Run findpositions!!")
+    input("Press enter to exit.")
     quit()
 
 # Take input
