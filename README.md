@@ -49,7 +49,7 @@ optional arguments:
 --skip -> creates a config file with 0 values. Use this if you dont want the scripts to drag the items to another inventory
 
 $ python3 firsttimesetup.py
-usage: findpositions.py [--cmd]
+usage: firsttimesetup.py [--cmd]
 
 optional arguments:
 --cmd -> enables manualy chaning the pip command used to install dependencies
